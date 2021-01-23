@@ -12,9 +12,8 @@ const ColorBlock: NextPage<ColorBlockI> = ({ colors }) => {
     }
 
     const copyColor = (colorCode: string) => {
-        console.log(colorCode);
         Utils.copyToClipboard(colorCode);
-        toast.dark(`Code Copied: ${colorCode} ✅`, {
+        toast.dark(`Copied color code: ${colorCode} ✅`, {
             transition: Slide
           });
     }

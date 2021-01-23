@@ -181,3 +181,12 @@ a :hover {
 
 
 
+
+
+.btn {
+  color: white;
+}
+
+.btn:hover {
+  color: white !important;
+}
